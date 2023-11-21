@@ -1,5 +1,4 @@
 import random
-print("Let's through a coin!")
 
 coin = random.randint(0, 1)
 

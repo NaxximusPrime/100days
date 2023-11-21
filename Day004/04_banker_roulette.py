@@ -1,6 +1,6 @@
 import random
 
-names_string = input("What are the names of you all? ")
+names_string = input("What are the names of you all seperated with comma? ")
 
 names = names_string.split(", ")
 

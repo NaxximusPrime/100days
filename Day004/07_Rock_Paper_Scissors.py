@@ -45,3 +45,5 @@ elif player_choice == 2 and computer_choice == 2:
 	print("You chose Scissors")
 	print("Computer chose Scissors")
 	print("It's a draw")
+else:
+	print("You typed an invalid number and loose.")

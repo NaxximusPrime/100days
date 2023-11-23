@@ -11,6 +11,13 @@ nr_letters = int(input("How many LETTERS would you like in your password? "))
 nr_numbers = int(input("How many NUMBERS would you like in your password? "))
 nr_symbols = int(input("How many SYMBOLS would you like in your password? "))
 
-for l in random.choice(letters):
-	print(l * nr_letters)
 
+for l in range(nr_letters):
+	print(random.choice(letters))
+for n in range(nr_numbers):
+	print(random.choice(numbers))
+for s in range(nr_symbols):
+	print(random.choice(symbols))
+
+# shuffle the generated l n s
+pw_generated =
